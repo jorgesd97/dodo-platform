@@ -5,7 +5,7 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
 ## Estado del proyecto
 
 - **Cientes activos** en producción
-- Postulación a **Santander Explorer** (aceleradora)
+- Postulación a **Santander Xplorer** (aceleradora)
 - Postulación a **13G Perú** (programa de startups)
 - En mejora continua de stack tecnológico y propuesta de valor
 
@@ -13,21 +13,21 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
 
 ```
                         ┌──────────────────────────────────────────────────────┐
-                        │                    HETZNER VPS                       │
+                        │                     VPS                              │
                         │                                                      │
-  WhatsApp ──────►  Chatwoot  ──────►  n8n  ──────►  Sales Agent API          │
-  (cliente)        (fork DoDo)      (webhooks)     (FastAPI + LangGraph)       │
+  WhatsApp ──────►  SaaS  ──────►  iPaaS  ────────────►  Sales Agent API       │
+  (cliente)        (fork DoDo)   (webhooks and integration)     (LangGraph)    │
                         │                               │                      │
                         │                    ┌──────────┴──────────┐           │
                         │                    │                     │           │
-                        │              Docling Serve          Coolify          │
-                        │            (OCR + parsing)      (orquestador)        │
+                        │              IBM document parser          PaaS       │
+                        │            (OCR + parsing)             (orquestador) │
                         └──────────────────────────────────────────────────────┘
                                                 │
                                     ┌───────────┴───────────┐
                                     │                       │
-                              Supabase                 Vertex AI
-                          (PostgreSQL)              (Gemini Flash)
+                              Cloud database            Vertex AI
+                          (PostgreSQL)              
                          ┌─────┴─────┐
                          │           │
                     Vector Store   Chat Memory
