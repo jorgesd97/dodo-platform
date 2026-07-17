@@ -4,7 +4,7 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
 
 ## Estado del proyecto
 
-- **3 clientes activos** en producción
+- **Cientes activos** en producción
 - Postulación a **Santander Explorer** (aceleradora)
 - Postulación a **13G Perú** (programa de startups)
 - En mejora continua de stack tecnológico y propuesta de valor
