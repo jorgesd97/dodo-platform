@@ -31,8 +31,8 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
                          ┌─────┴─────┐
                          │           │
                     Vector Store   Chat Memory
-                   (pgvector +    (historial por
-                    tsvector)      sesión)
+                     (hybrid)    (historial por
+                                       sesión)
 ```
 
 ## Stack tecnológico
