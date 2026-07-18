@@ -49,7 +49,6 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
 
 ### Agente de ventas
 - **LangGraph** como orquestador del flujo agéntico multi-paso
-- **FastAPI** como API REST que expone el agente como microservicio
 - **Vertex AI** como motor de inferencia para generación, clasificación y verificación
 - Autenticación segura via Service Account de Google Cloud
 
