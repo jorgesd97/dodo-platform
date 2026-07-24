@@ -20,19 +20,16 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
                         │                               │                      │
                         │                    ┌──────────┴──────────┐           │
                         │                    │                     │           │
-                        │              IBM document parser          PaaS       │
+                        │              document parser          PaaS           │
                         │            (OCR + parsing)             (orquestador) │
                         └──────────────────────────────────────────────────────┘
                                                 │
                                     ┌───────────┴───────────┐
                                     │                       │
-                              Cloud database            Vertex AI
-                          (PostgreSQL)              
+                              Cloud database            Vertex AI              
                          ┌─────┴─────┐
                          │           │
                     Vector Store   Chat Memory
-                      (hybrid)    (historial por
-                                      sesión)
 ```
 
 ## Capas del sistema
@@ -45,17 +42,15 @@ DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de ven
 ### Comunicación
 - CRM open-source (fork personalizado) como hub de conversaciones
 - WhatsApp Business API como canal principal
-- Plataforma iPaaS para integración de flujos, webhooks y transformaciones de datos
+- Plataforma iPaaS para integración de flujos
 
 ### Agente de ventas
 - **LangGraph** como orquestador del flujo agéntico multi-paso
 - **Vertex AI** como motor de inferencia para generación, clasificación y verificación
-- Autenticación segura via Service Account de Google Cloud
 
 ### RAG (Retrieval-Augmented Generation)
-- Parser de documentos IBM para conversión de Word/PDF a formato estructurado corriendo en VPS.
+- Parser de documentos para conversión a formato estructurado corriendo en VPS.
 - Base de datos vectorial
-- **Hybrid Search con Reciprocal Rank Fusion (RRF)** combinando semántico + BM25
 - Edge Function serverless como endpoint unificado de búsqueda
 
 ### Memoria conversacional
