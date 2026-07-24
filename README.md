@@ -1,6 +1,6 @@
 # DoDo — Plataforma de Agentes de Venta con IA
 
-DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de venta por WhatsApp usando agentes de inteligencia artificial. El agente guía al cliente desde el interés inicial hasta la validación del pago, usando una base de conocimientos personalizada para cada negocio.
+DoDo es una plataforma SaaS que permite a negocios automatizar su proceso de venta usando agentes de inteligencia artificial. El agente guía al cliente desde el interés inicial hasta la validación del pago, usando una base de conocimientos personalizada para cada negocio.
 
 ## Estado del proyecto
 
